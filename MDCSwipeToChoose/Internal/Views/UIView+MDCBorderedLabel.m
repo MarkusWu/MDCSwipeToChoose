@@ -40,6 +40,8 @@
     label.textAlignment = NSTextAlignmentCenter;
     label.font = [UIFont fontWithName:@"HelveticaNeue-CondensedBlack"
                                  size:48.f];
+    label.adjustsFontSizeToFitWidth = true;
+    label.minimumScaleFactor = 0.20;
     label.textColor = color;
     [self addSubview:label];
 
